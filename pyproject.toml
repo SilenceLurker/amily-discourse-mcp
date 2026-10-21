@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amily-discourse-mcp"
+version = "0.1.0"
+description = "Local multi-account Discourse MCP with Windows credential protection"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["mcp==2.3.0"]
+
+[project.urls]
+Repository = "https://github.com/SilenceLurker/amily-discourse-mcp"
+
+[project.scripts]
+discourse-mcp = "discourse_mcp.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

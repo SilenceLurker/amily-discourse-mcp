@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "discourse": {
+      "command": "C:\\Projects\\amily-discourse-mcp\\.venv\\Scripts\\python.exe",
+      "args": [
+        "-m", "discourse_mcp", "serve", "--accounts", "audit"
+      ]
+    }
+  }
+}

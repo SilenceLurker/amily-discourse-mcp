@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.egg-info/
+.state*/
+*.sqlite3*
+build/
+dist/
+.env
+.env.*
+*.pem
+*.key
+mcp-config.local.json
